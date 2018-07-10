@@ -3,7 +3,7 @@
 * Overview
 [[file:_img/screenshot_2018-05-13_17-57-49.png]]
 1. Client requests secure connection
-2. Server responses with a certificate and a public key, etc.
+2. Server responds with a certificate and a public key, etc.
 3. Client verifies the certificate received.
 4. Client generates a symmetric key, encrypts it with the pubic key received, and send it to Server
 5. Session is established
